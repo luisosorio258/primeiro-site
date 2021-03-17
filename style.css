@@ -42,9 +42,7 @@ body{
     flex-direction: row;
     list-style-type: none;
     justify-content: flex-end;
-
     padding: 20px;
-   
 }
 
 .menu-items ul a{
