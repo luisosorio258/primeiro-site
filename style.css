@@ -9,29 +9,45 @@
 }
 
 .wrapper{
-    height: 100px;
-    width: auto;
-    display: flex;   
+  display: flex;
 }
 
+.logo{
+    width: 150px;
+    height: 70px;
+}
+
+.logo img{
+    width: 150px;
+    height: 70px;
+    padding: 15px;
+}
 
 .menu{
-   
+   display: flex;
+   justify-content: flex-end;
 }
 .menu-items{
-    
+    display: flex;
+    justify-content: flex-end;
 }
 .menu-items ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
     justify-content: flex-end;
+
+    padding: 15px;
+   
 }
 
+.menu-items ul a{
+    margin-left: 10px;
+}
 
 .main{
    display: flex;
-   justify-content: center;
+   justify-content: space-evenly;
    align-items: center;
    height: 500px;
    width: auto;
@@ -47,7 +63,7 @@
     height: 200px;
     border: 2px solid black;
     border-radius: 10px;
-    margin-right: 50px;
+  
     
 }
 
@@ -59,7 +75,29 @@
     height: 200px;
     border: 2px solid black;
     border-radius: 10px;
-    margin-right: 50px;
+    
+}
+
+.hornets{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.orlando{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
 }
 
 .btn{
@@ -71,6 +109,7 @@
     height: 100px;
     align-self: center;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 
