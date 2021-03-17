@@ -36,9 +36,7 @@ body{
     justify-self: flex-end;
     
 }
-.menu-items{
-    
-}
+
 .menu-items ul{
     display: flex;
     flex-direction: row;
