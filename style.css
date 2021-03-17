@@ -9,5 +9,36 @@
 }
 
 
+.main{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 1px solid black;
+}
 
+.lakers{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    
+    
+    
+}
 
+.brok{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
