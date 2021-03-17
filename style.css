@@ -8,12 +8,35 @@
     color: black;
 }
 
+.wrapper{
+    height: 100px;
+    width: auto;
+    display: flex;   
+}
+
+
+.menu{
+   
+}
+.menu-items{
+    
+}
+.menu-items ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
 
 .main{
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
-   border: 1px solid black;
+   height: 500px;
+   width: auto;
+   
+  
 }
 
 .lakers{
@@ -22,8 +45,9 @@
     background-repeat: no-repeat;
     width: 200px;
     height: 200px;
-    
-    
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 50px;
     
 }
 
@@ -33,7 +57,9 @@
     background-repeat: no-repeat;
     width: 200px;
     height: 200px;
-    
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 50px;
 }
 
 .btn{
@@ -41,4 +67,11 @@
     color: white;
     font-weight: bold;
     border-radius: 4px;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin-top: 10px;
 }
+
+
+
