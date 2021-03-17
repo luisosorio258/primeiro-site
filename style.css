@@ -123,6 +123,7 @@ body{
     height: 100px;
     align-self: center;
     margin-top: 10px;
+    letter-spacing: 1px;
     cursor: pointer;
 }
 
