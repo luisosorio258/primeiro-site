@@ -135,14 +135,43 @@ body{
 }
 
 
-@media screen and (min-width: 360px){
+@media screen and (max-width: 768px){
     .main{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        height: 700px;
         width: auto;   
      }
+
+}
+
+@media screen and (max-width: 600px){
+    
+    
+    .main{  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .lakers{
+        margin: 25px;
+    }
+
+    .hornets{
+        margin: 17px;
+    }
+
+    .brok{
+        margin: 17px;
+    }
+
+    .orlando{
+        margin: 25px;
+    }
 
 }
